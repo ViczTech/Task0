@@ -96,8 +96,8 @@ article {
 #goals,
 #links {
   align-items: center;
-  width: 100%;
-  max-width: 600px;
+  width: 90%;
+  max-width: 350px;
   margin: 2rem;
 }
 
