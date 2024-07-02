@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: url("./4k-Windows-11-Dark-Purple-Abstract-Waves-4K-Wallpaper-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+main {
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-items: center;
+}
+
+#profile {
+  display: flex;
+  /* flex: 1; */
+  flex-wrap: wrap;
+  color: white;
+}
+
+pre {
+  margin: 2rem;
+}
+
+#profile div {
+  margin: 1rem;
+  height: 80px;
+  width: 220px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0 20px;
+  box-shadow: 5px 5px 25px white;
+  background: linear-gradient(
+    135deg,
+    rgba(225, 225, 225, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+#profile div h2 {
+  font-size: 18px;
+}
+
+#profile div p {
+  font-size: 12px;
+}
+
+#profile img {
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+#time {
+  height: 80px;
+  width: 220px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0 20px;
+  box-shadow: 5px 5px 25px white;
+  background: linear-gradient(
+    135deg,
+    rgba(225, 225, 225, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  color: white;
+}
+
+article {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+#goals,
+#links {
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem;
+}
+
+#goals li {
+  width: 100%;
+  height: 20px;
+  transition-delay: 1s;
+  transition: height 1s ease-in-out;
+  overflow: hidden;
+  box-shadow: 5px 5px 25px black;
+}
+
+#goals li:hover {
+  height: 120px;
+}
+
+li h4 {
+  margin: 0;
+}
+
+li p {
+  font-size: 12px;
+  color: rgb(202, 202, 202);
+}
+h3 {
+  color: #4caf50;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #fff;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 25px black;
+  background: linear-gradient(
+    135deg,
+    rgba(225, 225, 225, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  color: white;
+}
+
+a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+@media screen and (max-width: 700px) {
+  #profile {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
